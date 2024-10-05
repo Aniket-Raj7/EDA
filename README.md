@@ -35,7 +35,8 @@ Duplicate records can distort analysis by over-representing certain data points.
 - Used the drop_duplicates() function to eliminate any duplicate rows in the dataset.
 
 **Step 3** <br> Detecting and Removing Outliers
-Outliers can skew the results of data analysis and predictive models. To address this, we used the Interquartile Range (IQR) method to identify and remove outliers from the dataset. More details on this process are provided in the section below.
+Outliers can skew the results of data analysis and predictive models. To address this, we 
+- used the Interquartile Range (IQR) method to identify and remove outliers from the dataset. More details on this process are provided in the section below.
 Outlier Detection and Removal Using IQR
 
 Formula for Outlier Detection
