@@ -43,8 +43,8 @@ The Interquartile Range (IQR) method is a statistical technique used to detect o
 
 Here’s the process:
 
-Q1: First quartile (25th percentile).
-Q3: Third quartile (75th percentile).
+Q1: First quartile (25th percentile).<br>
+Q3: Third quartile (75th percentile). <br>
 IQR: The interquartile range is the difference between the third and first quartiles:
 - IQR = 𝑄3 − 𝑄1
 ### Lower Bound:
@@ -52,4 +52,11 @@ IQR: The interquartile range is the difference between the third and first quart
 ### Upper Bound:
   Upper Bound = 𝑄3 + 1.5×IQR
 
-Data points that fall below the lower bound or above the upper bound are considered outliers. In this project, we applied this method to each numerical column of the dataset and removed rows containing these outliers.
+- Data points that fall below the lower bound or above the upper bound are considered outliers. In this project, we applied this method to each numerical column of the dataset and removed rows containing these outliers.
+
+## Dependencies
+To replicate this EDA process, you need the following Python libraries:
+
+- pandas for data manipulation and analysis
+- numpy for numerical computations
+- seaborn and matplotlib for visualizations
