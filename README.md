@@ -4,11 +4,11 @@ This repository demonstrates a step-by-step approach to performing Exploratory D
 ## Table of Contents
 - Project Overview <br>
 - Steps in the EDA Process <br>
-Handling Missing Values <br>
-Eliminating Duplicates <br>
-Detecting and Removing Outliers <br>
-Outlier Detection and Removal Using IQR <br>
-Formula for Outlier Detection <br> 
-Dependencies <br>
-Usage <br>
-Conclusion
+- Handling Missing Values <br>
+- Eliminating Duplicates <br>
+- Detecting and Removing Outliers <br>
+- Outlier Detection and Removal Using IQR <br>
+- Formula for Outlier Detection <br> 
+- Dependencies <br>
+- Usage <br>
+- Conclusion
