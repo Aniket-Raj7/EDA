@@ -23,18 +23,18 @@ Detecting and eliminating outliers using the IQR method.
 The aim is to clean the dataset for more reliable results in future analyses and model building.
 
 ## Steps in the EDA Process
-Step 1. Handling Missing Values
+**Step 1** <br> Handling Missing Values
 In real-world datasets, missing values are common and need to be addressed to avoid bias in analysis. In this project, we:
 
 Identified columns with missing data.
 Used appropriate techniques (e.g., removing rows, filling with median/mean) to handle these missing values.
 
-Step 2. Eliminating Duplicates
+**Step 2** <br> Eliminating Duplicates
 Duplicate records can distort analysis by over-representing certain data points. We:
 
 Used the drop_duplicates() function to eliminate any duplicate rows in the dataset.
 
-Step 3. Detecting and Removing Outliers
+**Step 3** <br> Detecting and Removing Outliers
 Outliers can skew the results of data analysis and predictive models. To address this, we used the Interquartile Range (IQR) method to identify and remove outliers from the dataset. More details on this process are provided in the section below.
 Outlier Detection and Removal Using IQR
 
